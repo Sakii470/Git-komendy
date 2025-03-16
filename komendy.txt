@@ -11,4 +11,4 @@ git checkout <commit_id>  -> przejscie do okreslonego commita
  git log --author = "mateusz"   -> zwraca commity wyslane przez mateusz
  git log --grep="plik"  -> filtrowanie logow po wyrazach w komentarzu
  git log --format = "%h %an %s (%cr)" -> wyswietlanie logow w formacie jaki chcemy.
- git shortlog   -> wyswietlanie commitow dla authorow (info nad czym kto pracowal) 
+ git shortlog   -> wyswietlanie commitow dla authorow (info nad czym kto pracowal)l 

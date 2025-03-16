@@ -1,4 +1,14 @@
 git clean -i   -> usowanie plikow "niesledzonych" z changes
 git reset      -> cofanie plikow z "staged" do "changes"
 git checkout <file>   -> przywracanie pliku do poprzedniej wersji z commita
-git rm <file>         -> usowanie plikow z commitg
+git rm <file>         -> usowanie plikow z commit
+
+git log --oneline -3     -> wyswietlenie commitow 3 ostatnie commity
+git checkout <commit_id>  -> przejscie do okreslonego commita
+ git revert <commit_id>   -> przywarcanie zmian z historycznych commitow.
+ git reset <commid_id> --hard   -> przywraca zmiany, modyfikuje historie git - ryzykowane dzialanie.
+
+ git log --author = "mateusz"   -> zwraca commity wyslane przez mateusz
+ git log --grep="plik"  -> filtrowanie logow po wyrazach w komentarzu
+ git log --format = "%h %an %s (%cr)" -> wyswietlanie logow w formacie jaki chcemy.
+ git shortlog   -> wyswietlanie commitow dla authorow (info nad czym kto pracowal) 

@@ -1,2 +1,3 @@
+Otwarcie z branch  i dodanie to merge mateusz.
 Otwarcie z branch mateusz modyfikacja 
 Dodanie zdania z main

@@ -1,1 +1,2 @@
-Otwarcie z branch mateusz.
+Otwarcie z branch mateusz modyfikacja 
+Dodanie zdania z main
